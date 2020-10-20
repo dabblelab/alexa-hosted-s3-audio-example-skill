@@ -7,11 +7,9 @@ Hey this is Steve at Dabble Lab and in this tutorial, we'll look at playing an m
 
 When you create an [Alexa-Hosted](https://developer.amazon.com/en-US/docs/alexa/hosted-skills/build-a-skill-end-to-end-using-an-alexa-hosted-skill.html) skill, an Amazon S3 bucket is also created for hosting media files. But the S3 bucket secures the files to prevent them from being publicly accessible. So, you can't just use the URL that is visible when you view the file in the bucket. To use the files in your skill, you need a signed URL. 
 
-
-
 ## Steps
 
-To follow-along, you can [click this link to deploy this code](https://deploy.dabble.dev/deploy/v2/yojf15ci7h) to your Alexa console. Or, you can copy and past the code from the following steps.
+To follow-along, you can [click this link to deploy this skill template](https://deploy.dabble.dev/deploy/v2/yojf15ci7h) to your Alexa console. Or, you can copy and past the code from the following steps.
 
 ### Step 1 - Create and Alexa-Hosted skill
  - Login to [developer.amazon.com/alexa/console](https://developer.amazon.com/alexa/console)
