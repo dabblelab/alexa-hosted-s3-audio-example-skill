@@ -1,7 +1,7 @@
 [![Custom badge](https://img.shields.io/endpoint?url=https://badges-shields-io-88j4y07yzimq.runkit.sh)](https://deploy.dabble.dev/deploy/v2/yojf15ci7h)
 
 # Playing mp3 files in an Alexa-Hosted skill
-Hey this is Steve at Dabble Lab and in this tutorial, we'll look at playing an mp3 file from an S3 bucket created by an Alexa-Hosted skill.
+Hey this is Steve at Dabble Lab and in this tutorial, we'll look at playing an mp3 file from an Alexa-Hosted skill S3 bucket.
 
 ## Overview
 
