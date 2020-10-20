@@ -1,15 +1,15 @@
 const Alexa = require('ask-sdk-core');
+const util = require('./util.js');
 
 const LaunchRequestHandler = {
     canHandle(handlerInput) {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Hello World!';
+        const audioUrl = Util.getS3PreSignedUrl("Media/your-audio-file.mp3").replace(/&/g,'&amp;');
         return handlerInput.responseBuilder
-            .speak(speakOutput)
-            .reprompt(speakOutput)
-            .getResponse();
+                .speak(`hello world with audio <audio src="${audioUrl}"/>`)
+                .getResponse();
     }
 };
 const HelpIntentHandler = {
