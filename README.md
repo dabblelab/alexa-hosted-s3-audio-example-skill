@@ -1,11 +1,11 @@
 [![Custom badge](https://img.shields.io/endpoint?url=https://badges-shields-io-88j4y07yzimq.runkit.sh)](https://deploy.dabble.dev/deploy/v2/yojf15ci7h)
 
 # Playing mp3 files in an Alexa-Hosted skill
-Hey this is Steve at Dabble Lab and in this tutorial, we'll look at playing an mp3 file from an Alexa-Hosted skill S3 bucket.
+Hey this is Steve at Dabble Lab and in this tutorial, we'll look at playing an mp3 file from an Alexa-Hosted skill's S3 bucket.
 
 ## Overview
 
-When you create an [Alexa-Hosted](https://developer.amazon.com/en-US/docs/alexa/hosted-skills/build-a-skill-end-to-end-using-an-alexa-hosted-skill.html) skill, an Amazon S3 bucket is also created for hosting media files. But the S3 bucket secures the files to prevent them from being publicly accessible. So, you can't just use the URL that is visible when you view the file in the bucket. To use the files in your skill, you need a signed URL. 
+When you create an [Alexa-Hosted](https://developer.amazon.com/en-US/docs/alexa/hosted-skills/build-a-skill-end-to-end-using-an-alexa-hosted-skill.html) skill, an Amazon S3 bucket is also created for hosting media files. But the files you store in that bucket are not accessible publicly. So, you can't just use the default file URL in your skill, you need a signed URL.
 
 ## Steps
 
