@@ -1,0 +1,46 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "template zero",
+        "types": [
+        ],
+        "intents": [
+          {
+            "name": "AMAZON.NavigateHomeIntent",
+            "samples": [
+  
+            ]
+          },
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": [
+  
+            ]
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": [
+  
+            ]
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": [
+  
+            ]
+          },
+          {
+            "name":"AboutIntent",
+            "slots":[],
+            "samples":[
+                "tell me about this template",
+                "about this template",
+                "about this skill",
+                "tell me more"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  
