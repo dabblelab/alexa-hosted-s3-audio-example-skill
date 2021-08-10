@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/dabblelab/alexa-hosted-s3-audio-example-skill/main/assets/image.png)
+![](https://raw.githubusercontent.com/rimmi21/alexa-hosted-s3-audio-example-skill/main/assets/image.png)
 
 # Alexa Hosted S3 Audio Skill Example
 
